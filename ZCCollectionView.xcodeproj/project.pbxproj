@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B90754281EA45BFA00513264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90754271EA45BFA00513264 /* AppDelegate.swift */; };
+		B907542A1EA45BFA00513264 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90754291EA45BFA00513264 /* ViewController.swift */; };
+		B907542D1EA45BFA00513264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B907542B1EA45BFA00513264 /* Main.storyboard */; };
+		B907542F1EA45BFA00513264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B907542E1EA45BFA00513264 /* Assets.xcassets */; };
+		B90754321EA45BFA00513264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90754301EA45BFA00513264 /* LaunchScreen.storyboard */; };
+		B907543D1EA45BFB00513264 /* ZCCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B907543C1EA45BFB00513264 /* ZCCollectionViewTests.swift */; };
+		B90754481EA45BFB00513264 /* ZCCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90754471EA45BFB00513264 /* ZCCollectionViewUITests.swift */; };
+		B907545A1EA45D0D00513264 /* ZCLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90754591EA45D0D00513264 /* ZCLayout.swift */; };
+		B907545C1EA45F4F00513264 /* ZCCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B907545B1EA45F4F00513264 /* ZCCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B90754391EA45BFB00513264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B907541C1EA45BFA00513264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90754231EA45BFA00513264;
+			remoteInfo = ZCCollectionView;
+		};
+		B90754441EA45BFB00513264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B907541C1EA45BFA00513264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90754231EA45BFA00513264;
+			remoteInfo = ZCCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B90754241EA45BFA00513264 /* ZCCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90754271EA45BFA00513264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B90754291EA45BFA00513264 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B907542C1EA45BFA00513264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B907542E1EA45BFA00513264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B90754311EA45BFA00513264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B90754331EA45BFA00513264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90754381EA45BFB00513264 /* ZCCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B907543C1EA45BFB00513264 /* ZCCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCCollectionViewTests.swift; sourceTree = "<group>"; };
+		B907543E1EA45BFB00513264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90754431EA45BFB00513264 /* ZCCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90754471EA45BFB00513264 /* ZCCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCCollectionViewUITests.swift; sourceTree = "<group>"; };
+		B90754491EA45BFB00513264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90754591EA45D0D00513264 /* ZCLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCLayout.swift; sourceTree = "<group>"; };
+		B907545B1EA45F4F00513264 /* ZCCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B90754211EA45BFA00513264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90754351EA45BFB00513264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90754401EA45BFB00513264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B907541B1EA45BFA00513264 = {
+			isa = PBXGroup;
+			children = (
+				B90754261EA45BFA00513264 /* ZCCollectionView */,
+				B907543B1EA45BFB00513264 /* ZCCollectionViewTests */,
+				B90754461EA45BFB00513264 /* ZCCollectionViewUITests */,
+				B90754251EA45BFA00513264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B90754251EA45BFA00513264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B90754241EA45BFA00513264 /* ZCCollectionView.app */,
+				B90754381EA45BFB00513264 /* ZCCollectionViewTests.xctest */,
+				B90754431EA45BFB00513264 /* ZCCollectionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B90754261EA45BFA00513264 /* ZCCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B90754271EA45BFA00513264 /* AppDelegate.swift */,
+				B90754291EA45BFA00513264 /* ViewController.swift */,
+				B90754591EA45D0D00513264 /* ZCLayout.swift */,
+				B907545B1EA45F4F00513264 /* ZCCollectionViewCell.swift */,
+				B907542B1EA45BFA00513264 /* Main.storyboard */,
+				B907542E1EA45BFA00513264 /* Assets.xcassets */,
+				B90754301EA45BFA00513264 /* LaunchScreen.storyboard */,
+				B90754331EA45BFA00513264 /* Info.plist */,
+			);
+			path = ZCCollectionView;
+			sourceTree = "<group>";
+		};
+		B907543B1EA45BFB00513264 /* ZCCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B907543C1EA45BFB00513264 /* ZCCollectionViewTests.swift */,
+				B907543E1EA45BFB00513264 /* Info.plist */,
+			);
+			path = ZCCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		B90754461EA45BFB00513264 /* ZCCollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B90754471EA45BFB00513264 /* ZCCollectionViewUITests.swift */,
+				B90754491EA45BFB00513264 /* Info.plist */,
+			);
+			path = ZCCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B90754231EA45BFA00513264 /* ZCCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B907544C1EA45BFB00513264 /* Build configuration list for PBXNativeTarget "ZCCollectionView" */;
+			buildPhases = (
+				B90754201EA45BFA00513264 /* Sources */,
+				B90754211EA45BFA00513264 /* Frameworks */,
+				B90754221EA45BFA00513264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZCCollectionView;
+			productName = ZCCollectionView;
+			productReference = B90754241EA45BFA00513264 /* ZCCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B90754371EA45BFB00513264 /* ZCCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B907544F1EA45BFB00513264 /* Build configuration list for PBXNativeTarget "ZCCollectionViewTests" */;
+			buildPhases = (
+				B90754341EA45BFB00513264 /* Sources */,
+				B90754351EA45BFB00513264 /* Frameworks */,
+				B90754361EA45BFB00513264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B907543A1EA45BFB00513264 /* PBXTargetDependency */,
+			);
+			name = ZCCollectionViewTests;
+			productName = ZCCollectionViewTests;
+			productReference = B90754381EA45BFB00513264 /* ZCCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B90754421EA45BFB00513264 /* ZCCollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90754521EA45BFB00513264 /* Build configuration list for PBXNativeTarget "ZCCollectionViewUITests" */;
+			buildPhases = (
+				B907543F1EA45BFB00513264 /* Sources */,
+				B90754401EA45BFB00513264 /* Frameworks */,
+				B90754411EA45BFB00513264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90754451EA45BFB00513264 /* PBXTargetDependency */,
+			);
+			name = ZCCollectionViewUITests;
+			productName = ZCCollectionViewUITests;
+			productReference = B90754431EA45BFB00513264 /* ZCCollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B907541C1EA45BFA00513264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = qianli;
+				TargetAttributes = {
+					B90754231EA45BFA00513264 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					B90754371EA45BFB00513264 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B90754231EA45BFA00513264;
+					};
+					B90754421EA45BFB00513264 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B90754231EA45BFA00513264;
+					};
+				};
+			};
+			buildConfigurationList = B907541F1EA45BFA00513264 /* Build configuration list for PBXProject "ZCCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B907541B1EA45BFA00513264;
+			productRefGroup = B90754251EA45BFA00513264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B90754231EA45BFA00513264 /* ZCCollectionView */,
+				B90754371EA45BFB00513264 /* ZCCollectionViewTests */,
+				B90754421EA45BFB00513264 /* ZCCollectionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B90754221EA45BFA00513264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90754321EA45BFA00513264 /* LaunchScreen.storyboard in Resources */,
+				B907542F1EA45BFA00513264 /* Assets.xcassets in Resources */,
+				B907542D1EA45BFA00513264 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90754361EA45BFB00513264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90754411EA45BFB00513264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B90754201EA45BFA00513264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B907542A1EA45BFA00513264 /* ViewController.swift in Sources */,
+				B907545C1EA45F4F00513264 /* ZCCollectionViewCell.swift in Sources */,
+				B907545A1EA45D0D00513264 /* ZCLayout.swift in Sources */,
+				B90754281EA45BFA00513264 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90754341EA45BFB00513264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B907543D1EA45BFB00513264 /* ZCCollectionViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B907543F1EA45BFB00513264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90754481EA45BFB00513264 /* ZCCollectionViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B907543A1EA45BFB00513264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B90754231EA45BFA00513264 /* ZCCollectionView */;
+			targetProxy = B90754391EA45BFB00513264 /* PBXContainerItemProxy */;
+		};
+		B90754451EA45BFB00513264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B90754231EA45BFA00513264 /* ZCCollectionView */;
+			targetProxy = B90754441EA45BFB00513264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B907542B1EA45BFA00513264 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B907542C1EA45BFA00513264 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B90754301EA45BFA00513264 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90754311EA45BFA00513264 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B907544A1EA45BFB00513264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B907544B1EA45BFB00513264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B907544D1EA45BFB00513264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZCCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZC.ZCCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B907544E1EA45BFB00513264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZCCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZC.ZCCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B90754501EA45BFB00513264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZCCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZC.ZCCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCCollectionView.app/ZCCollectionView";
+			};
+			name = Debug;
+		};
+		B90754511EA45BFB00513264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZCCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZC.ZCCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCCollectionView.app/ZCCollectionView";
+			};
+			name = Release;
+		};
+		B90754531EA45BFB00513264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZCCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZC.ZCCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZCCollectionView;
+			};
+			name = Debug;
+		};
+		B90754541EA45BFB00513264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZCCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZC.ZCCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZCCollectionView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B907541F1EA45BFA00513264 /* Build configuration list for PBXProject "ZCCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B907544A1EA45BFB00513264 /* Debug */,
+				B907544B1EA45BFB00513264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B907544C1EA45BFB00513264 /* Build configuration list for PBXNativeTarget "ZCCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B907544D1EA45BFB00513264 /* Debug */,
+				B907544E1EA45BFB00513264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B907544F1EA45BFB00513264 /* Build configuration list for PBXNativeTarget "ZCCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90754501EA45BFB00513264 /* Debug */,
+				B90754511EA45BFB00513264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B90754521EA45BFB00513264 /* Build configuration list for PBXNativeTarget "ZCCollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90754531EA45BFB00513264 /* Debug */,
+				B90754541EA45BFB00513264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B907541C1EA45BFA00513264 /* Project object */;
+}
